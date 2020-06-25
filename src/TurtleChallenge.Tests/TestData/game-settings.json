@@ -1,0 +1,27 @@
+{
+  "boardWidth": 5,
+  "boardHeight": 4,
+  "startingDirection": "N",
+  "startingPoint": {
+    "x": 0,
+    "y": 1
+  },
+  "exitPoint": {
+    "x": 4,
+    "y": 2
+  },
+  "mines": [
+    {
+      "x": 1,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 1
+    },
+    {
+      "x": 3,
+      "y": 3
+    }
+  ]
+}
