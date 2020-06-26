@@ -19,8 +19,14 @@ SDK: Microsoft.NETCore.App/2.1
 ```
 
 ## General usage
-```sh
+```ps
 dotnet TurtleChallenge.dll game-settings.json moves.json
+```
+sample oputput:
+```ps
+Sequence 1: Mine hit!
+Sequence 2: Still in danger!
+Sequence 3: Success!
 ```
 
 Sample board.config.json contains:
@@ -72,7 +78,7 @@ r - rotate
 Testing project uses XUnit framework. 
 
 End-to-end WhenRunningAllSequencesTest outputs:
-```sh
+```ps
 Sequence 1: Mine hit!
 Sequence 2: Still in danger!
 Sequence 3: Success!
